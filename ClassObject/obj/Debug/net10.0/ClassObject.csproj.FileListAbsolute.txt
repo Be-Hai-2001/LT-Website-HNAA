@@ -1,0 +1,14 @@
+D:\NguyenMinhHai\ClassObject\ClassObject\bin\Debug\net10.0\ClassObject.exe
+D:\NguyenMinhHai\ClassObject\ClassObject\bin\Debug\net10.0\ClassObject.deps.json
+D:\NguyenMinhHai\ClassObject\ClassObject\bin\Debug\net10.0\ClassObject.runtimeconfig.json
+D:\NguyenMinhHai\ClassObject\ClassObject\bin\Debug\net10.0\ClassObject.dll
+D:\NguyenMinhHai\ClassObject\ClassObject\bin\Debug\net10.0\ClassObject.pdb
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ClassObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ClassObject.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ClassObject.AssemblyInfo.cs
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ClassObject.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ClassObject.dll
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\refint\ClassObject.dll
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ClassObject.pdb
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ClassObject.genruntimeconfig.cache
+D:\NguyenMinhHai\ClassObject\ClassObject\obj\Debug\net10.0\ref\ClassObject.dll

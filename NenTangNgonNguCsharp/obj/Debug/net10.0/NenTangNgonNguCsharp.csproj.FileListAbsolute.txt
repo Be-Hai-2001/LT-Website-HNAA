@@ -1,0 +1,14 @@
+D:\NguyenMinhHai\NenTangNgonNguCsharp\bin\Debug\net10.0\NenTangNgonNguCsharp.exe
+D:\NguyenMinhHai\NenTangNgonNguCsharp\bin\Debug\net10.0\NenTangNgonNguCsharp.deps.json
+D:\NguyenMinhHai\NenTangNgonNguCsharp\bin\Debug\net10.0\NenTangNgonNguCsharp.runtimeconfig.json
+D:\NguyenMinhHai\NenTangNgonNguCsharp\bin\Debug\net10.0\NenTangNgonNguCsharp.dll
+D:\NguyenMinhHai\NenTangNgonNguCsharp\bin\Debug\net10.0\NenTangNgonNguCsharp.pdb
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\NenTangNgonNguCsharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\NenTangNgonNguCsharp.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\NenTangNgonNguCsharp.AssemblyInfo.cs
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\NenTangNgonNguCsharp.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\NenTangNgonNguCsharp.dll
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\refint\NenTangNgonNguCsharp.dll
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\NenTangNgonNguCsharp.pdb
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\NenTangNgonNguCsharp.genruntimeconfig.cache
+D:\NguyenMinhHai\NenTangNgonNguCsharp\obj\Debug\net10.0\ref\NenTangNgonNguCsharp.dll

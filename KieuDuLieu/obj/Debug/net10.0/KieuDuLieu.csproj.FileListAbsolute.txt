@@ -1,0 +1,14 @@
+D:\NguyenMinhHai\KieuDuLieu\bin\Debug\net10.0\KieuDuLieu.exe
+D:\NguyenMinhHai\KieuDuLieu\bin\Debug\net10.0\KieuDuLieu.deps.json
+D:\NguyenMinhHai\KieuDuLieu\bin\Debug\net10.0\KieuDuLieu.runtimeconfig.json
+D:\NguyenMinhHai\KieuDuLieu\bin\Debug\net10.0\KieuDuLieu.dll
+D:\NguyenMinhHai\KieuDuLieu\bin\Debug\net10.0\KieuDuLieu.pdb
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\KieuDuLieu.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\KieuDuLieu.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\KieuDuLieu.AssemblyInfo.cs
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\KieuDuLieu.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\KieuDuLieu.dll
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\refint\KieuDuLieu.dll
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\KieuDuLieu.pdb
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\KieuDuLieu.genruntimeconfig.cache
+D:\NguyenMinhHai\KieuDuLieu\obj\Debug\net10.0\ref\KieuDuLieu.dll

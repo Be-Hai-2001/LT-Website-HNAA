@@ -1,0 +1,14 @@
+D:\NguyenMinhHai\HelloWoldApp\bin\Debug\net10.0\HelloWoldApp.exe
+D:\NguyenMinhHai\HelloWoldApp\bin\Debug\net10.0\HelloWoldApp.deps.json
+D:\NguyenMinhHai\HelloWoldApp\bin\Debug\net10.0\HelloWoldApp.runtimeconfig.json
+D:\NguyenMinhHai\HelloWoldApp\bin\Debug\net10.0\HelloWoldApp.dll
+D:\NguyenMinhHai\HelloWoldApp\bin\Debug\net10.0\HelloWoldApp.pdb
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\HelloWoldApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\HelloWoldApp.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\HelloWoldApp.AssemblyInfo.cs
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\HelloWoldApp.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\HelloWoldApp.dll
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\refint\HelloWoldApp.dll
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\HelloWoldApp.pdb
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\HelloWoldApp.genruntimeconfig.cache
+D:\NguyenMinhHai\HelloWoldApp\obj\Debug\net10.0\ref\HelloWoldApp.dll
