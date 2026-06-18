@@ -45,6 +45,55 @@ class ThamTriThamSo
     }
 }
 
+class MayTinh
+{
+    // Cùng tên phương thức là "TinhTong" nhưng tham số khác nhau
+
+    // Phiên bản 1: Cộng 2 số nguyên
+    public int TinhTong(int a, int b)
+    {
+        return a + b;
+    }
+
+    // Phiên bản 2: Cộng 3 số nguyên
+    public int TinhTong(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+
+    // Phiên bản 3: Cộng 2 số thập phân
+    public double TinhTong(double a, double b)
+    {
+        return a + b;
+    }
+}
+
+
+class TaiKhoanNganHang
+{
+    // Dữ liệu nội bộ bị giấu kín (private)
+    private double _soDu;
+
+    // Thuộc tính chỉ đọc (Read-Only Property): Chỉ có get, không có set
+    public string SoTaiKhoan { get; }
+    public TaiKhoanNganHang(string soTaiKhoan)
+    {
+        SoTaiKhoan = soTaiKhoan;
+        _soDu = 0;
+    }
+
+    public double SoDu
+    {
+        get { return _soDu; }
+        set
+        {
+            if (value >= 0)
+                _soDu = value;
+            else
+                Console.WriteLine("Lỗi: Số dư không thể là số âm.");
+        }
+    }
+}
 class Program
 {
     static void Main(string[] args)
@@ -57,18 +106,38 @@ class Program
         // CuaHang.InTongSoKhach();
 
         // ==================== Demo 02 ==================== //
-        // Sử dụng ref: Biến đã được khởi tạo giá trị
-        int diem = 5;
-        ThamTriThamSo.TangGiaTri(ref diem);
-        Console.WriteLine(diem); // Kết quả: 15
+        // // Sử dụng ref: Biến đã được khởi tạo giá trị
+        // int diem = 5;
+        // ThamTriThamSo.TangGiaTri(ref diem);
+        // Console.WriteLine(diem); // Kết quả: 15
 
-        // Sử dụng out: Biến chauw được khởi tạo giá trị
-        int nam;
-        ThamTriThamSo.LayThongTin(out nam);
-        Console.WriteLine(nam);
+        // // Sử dụng out: Biến chauw được khởi tạo giá trị
+        // int nam;
+        // ThamTriThamSo.LayThongTin(out nam);
+        // Console.WriteLine(nam);
 
-        // Sử dụng params: Dùng để truyền một danh sách tham số
-        ThamTriThamSo.InDanhSachSo(1, 2, 3);
-        ThamTriThamSo.InDanhSachSo(10, 20, 30, 40, 50);
+        // // Sử dụng params: Dùng để truyền một danh sách tham số
+        // ThamTriThamSo.InDanhSachSo(1, 2, 3);
+        // ThamTriThamSo.InDanhSachSo(10, 20, 30, 40, 50);
+
+        // ==================== Demo 03 nạp chồng phương thức ==================== //
+        // MayTinh mt = new MayTinh();
+        // Console.WriteLine(mt.TinhTong(5, 10));       // Gọi phiên bản 1
+        // Console.WriteLine(mt.TinhTong(5, 10, 15));   // Gọi phiên bản 2
+        // Console.WriteLine(mt.TinhTong(2.5, 3.5));    // Gọi phiên bản 3
+
+        // ==================== Demo 04 đóng gói dữ liệu ==================== //
+        TaiKhoanNganHang tk = new TaiKhoanNganHang("123456789");
+
+        // tk.SoTaiKhoan = "987654321"; // LỖI: Không thể gán vì là thuộc tính chỉ đọc
+        Console.WriteLine("Số TK: " + tk.SoTaiKhoan);
+
+        // Gán và đọc số dư thông qua Property
+        tk.SoDu = 50000; // Gọi set
+        Console.WriteLine("Số dư: " + tk.SoDu); // Gọi get
+
+        tk.SoDu = -1000; // Gọi set nhưng sẽ bị báo lỗi do giá trị âm
+
+
     }
 }
