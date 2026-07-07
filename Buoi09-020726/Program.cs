@@ -51,7 +51,7 @@ public class Program
         {
             Console.WriteLine("-- CHƯƠNG TRÌNH KIỂM TRA TUỔI --");
             Console.Write("Nhập tuổi: ");
-            int tuoi = int.Parse(Console.ReadLine());
+            int tuoi = int.Parse(Console.ReadLine() ?? string.Empty);
             KiemTraTuoi(tuoi);
         }
         catch (TuoiKhongHopLeException e)
