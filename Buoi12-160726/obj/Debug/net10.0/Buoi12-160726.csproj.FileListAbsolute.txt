@@ -1,0 +1,15 @@
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.AssemblyInfo.cs
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.sourcelink.json
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\bin\Debug\net10.0\Buoi12-160726.exe
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\bin\Debug\net10.0\Buoi12-160726.deps.json
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\bin\Debug\net10.0\Buoi12-160726.runtimeconfig.json
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\bin\Debug\net10.0\Buoi12-160726.dll
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\bin\Debug\net10.0\Buoi12-160726.pdb
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.dll
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\refint\Buoi12-160726.dll
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.pdb
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\Buoi12-160726.genruntimeconfig.cache
+D:\NguyenMinhHai\LT-Website-HNAA\Buoi12-160726\obj\Debug\net10.0\ref\Buoi12-160726.dll
