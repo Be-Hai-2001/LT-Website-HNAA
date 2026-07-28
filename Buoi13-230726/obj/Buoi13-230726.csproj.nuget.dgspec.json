@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj": {}
+    "d:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj": {}
   },
   "projects": {
-    "D:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj": {
+    "d:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj",
+        "projectUniqueName": "d:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj",
         "projectName": "Buoi13-230726",
-        "projectPath": "D:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj",
+        "projectPath": "d:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\Buoi13-230726.csproj",
         "packagesPath": "C:\\Users\\Q3-TK-009\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\obj\\",
+        "outputPath": "d:\\NguyenMinhHai\\LT-Website-HNAA\\Buoi13-230726\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Q3-TK-009\\AppData\\Roaming\\NuGet\\NuGet.Config",
