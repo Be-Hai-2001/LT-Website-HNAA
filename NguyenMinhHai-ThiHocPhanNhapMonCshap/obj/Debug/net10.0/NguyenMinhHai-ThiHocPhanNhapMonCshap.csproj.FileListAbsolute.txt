@@ -1,0 +1,14 @@
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\bin\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.exe
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\bin\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.deps.json
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\bin\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.runtimeconfig.json
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\bin\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.dll
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\bin\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.pdb
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.GeneratedMSBuildEditorConfig.editorconfig
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.AssemblyInfoInputs.cache
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.AssemblyInfo.cs
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.csproj.CoreCompileInputs.cache
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.dll
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\refint\NguyenMinhHai-ThiHocPhanNhapMonCshap.dll
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.pdb
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\NguyenMinhHai-ThiHocPhanNhapMonCshap.genruntimeconfig.cache
+D:\NguyenMinhHai\NguyenMinhHai-ThiHocPhanNhapMonCshap\obj\Debug\net10.0\ref\NguyenMinhHai-ThiHocPhanNhapMonCshap.dll
