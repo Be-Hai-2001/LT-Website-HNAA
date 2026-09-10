@@ -1,0 +1,81 @@
+Bài 01:
+
+db.san_pham.find(
+  {},
+  {ten_sp: 1, gia_ban: 1, _id: 0}
+)
+
+Bài 02: 
+
+sort : 
+	1: Sắp xếp tăng dần ( nhỏ -> lớn )
+	-1: Sắp xếp giảm dần ( lớn -> nhỏ )
+limit: lọc lần theo số lượng ( tương tự như TOP SQL )
+
+
+db.san_pham.find(
+  {},
+  {ten_sp: 1, gia_ban: 1,so_luong_ban: 1, _id: 0}
+).sort({so_luong_ban: -1}).limit(3)
+
+Bài 03:
+
+db.san_pham.find(
+  {},
+  { ten_sp: 1, gia_ban: 1, _id: 0 }
+).sort({ ten_sp: 1 }).skip(3).limit(3)
+
+Bài 04:
+
+$group : Gom nhóm hiển thị ra màn hình ( bắt buộc phải có trường _id: unique || null, ... tiếp tục là những thứ muốn hiển thị có điểm chung )
+
+db.san_pham.aggregate([
+  {
+    $match: {
+      danh_muc: "Cà Phê Pha Máy"
+    }
+  },
+  {
+    $group: {
+      _id: "$danh_muc",
+      gia_trung_binh: { $avg: "$gia_ban" }
+    }
+  }
+])
+
+Bài 05:
+
+$match: Tương tự như where SQL ( với điều kiện so sánh )
+
+	$lt (Less Than): Nhỏ hơn (< 500)
+
+	$lte (Less Than or Equal): Nhỏ hơn hoặc bằng (<= 500)
+
+	$gt (Greater Than): Lớn hơn (> 500)
+
+	$gte (Greater Than or Equal): Lớn hơn hoặc bằng (>= 500)
+
+	$eq (Equal): Bằng (== 500)
+
+	$ne (Not Equal): Khác (!= 500)
+	
+
+db.san_pham.aggregate([
+  {
+    $group: {
+      _id: "$danh_muc",
+      tong_sl_ban: { $sum: "$so_luong_ban" }
+    }
+  },
+  {
+    $match: {
+      tong_sl_ban: { $gt: 500 }
+    }
+  },
+  {
+    $sort : {tong_so_luong: -1}
+  }
+])
+
+
+
