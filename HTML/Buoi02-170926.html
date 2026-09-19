@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<style>
+     .container-main h1 {
+        color: orange;
+        text-align: center;
+     }
+
+     .container-main .content {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+     .container-main .content .product {
+        display: flex;
+     }
+
+     .container-main .content .product .info {
+        /* align-self: flex-end; */
+        margin-left: 10pt;
+     }
+     
+     .container-main .content .product .info > *:first-child {
+        margin-top: 0;
+     }
+
+     .container-main .content .product .div-img img {
+        width: 250px;
+     }
+
+     hr {
+        border: none;
+        height: 1px;
+        background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+        margin: 30px 0;
+    }
+
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0px 80px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-main {
+        /* Giữ chiều cao theo nội dung thực tế */
+        flex-shrink: 0; 
+    }
+
+   footer {
+        text-align: center;
+        flex: 1; /* Chiếm chiều cao còn lại của body */
+        display: flex;
+        flex-direction: column; /* Xếp các phần tử con theo chiều dọc */
+        justify-content: flex-end; /* Đẩy khối con xuống sát đáy */
+        align-items: center; /* Căn giữa khối con theo chiều ngang */
+    }
+</style>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <title>
+            The Coffee House
+        </title>
+    </head>
+    <body>
+        <div class="container-main">
+            <h1 class="title">
+                Menu The Coffee House
+            </h1>
+            <div class="content">
+                <div>
+                    <h2>Cà Phê Truyền Thống</h2>
+                    <div class="product">
+                        <div class="div-img">
+                            <img alt="Cà phê sữa đá" src="data:image/webp;base64,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" alt="">
+                        </div>
+                        <div class="info">
+                            <p>
+                                Tên món:
+                                <strong>Cà Phê Sữa</strong>
+                            </p>
+                            <p>
+                                Mức giá:
+                                <ins>40.000 VNĐ</ins>
+                            </p>
+                            <p>
+                                <a href="https://www.thecoffeehouse.com/">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Đặt hàng
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div>
+                    <h2>Cà Phê Pha Máy</h2>
+                </div> -->
+                <hr>
+                <div>
+                    <h2>Trà Trái Cây</h2>
+                    <div class="product">
+                        <div class="div-img">
+                            <img alt="Trà đào cam sả" src="https://th.bing.com/th/id/OIP.k8kRE5PU0jSfPnmXbwIR_wHaE7?w=255&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+                        </div>
+                        <div class="info">
+                            <p>
+                                Tên món:
+                                <strong>Cold Brew Cam Sả</strong>
+                            </p>
+                            <p>
+                                Mức giá cũ:
+                                <del>50.000 VNĐ</del>
+                            </p>
+                            <p>
+                                Mức giá mới:
+                                <ins>39.000 VNĐ</ins>
+                            </p>
+                            <p>
+                                <a href="https://www.thecoffeehouse.com/">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Đặt hàng
+                                </a>
+                            </p>
+                            <p>
+                                <mark>
+                                    <strong>
+                                        Chỉ áp dụng trong tuần này !
+                                    </strong>
+                                </mark>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div>
+            <p>
+                <a href="https://www.google.com/maps/dir//H%C6%B0%E1%BB%9Bng+nghi%E1%BB%87p+%C3%81+%C3%82u,+259B+Hai+B%C3%A0+Tr%C6%B0ng,+Xu%C3%A2n+H%C3%B2a,+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/data=!4m9!4m8!1m0!1m5!1m1!19sChIJeWThDTMvdTEREdvxsLqHFbI!2m2!1d106.6921802!2d10.787482299999999!3e0">
+                    Xem chỉ đường trên Google Maps
+                </a>
+            </p>
+            <p>
+                <a href="cskh@thecoffeehouse.com">
+                    Góp ý chất lượng dịch vụ
+                </a>
+            </p>
+        </div>
+    </footer>
+</html>
